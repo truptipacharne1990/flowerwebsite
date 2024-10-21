@@ -1,0 +1,332 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>complete responsive flower website design tutorial</title>
+    <!-- font awesome cdn link -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css">
+    <!--custom css file link -->
+
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <!-- header section starts -->
+     <header>
+
+        <input type="checkbox" name="" id="toggler">
+        <label for="toggler" class="fas fa-bars"></label>
+
+        <a href="#" class="logo">flower<span>.</span></a>
+
+        <nav class="navbar">
+            <a href="#home">home</a>
+            <a href="#about">about</a>
+            <a href="#products">products</a>
+            <a href="#review">review</a>
+            <a href="#contact">contact</a>
+        </nav>
+
+        <div class="icons1">
+            <a href="#" class="fas fa-heart"></a>
+            <a href="#" class="fas fa-shopping-cart"></a>
+            <a href="#" class="fas fa-user"></a>
+        </div>
+
+     </header>
+
+     <!-- header section end -->
+      <!--home section starts-->
+       <section class="home" id="home">
+      <div class="content">
+        <h3>fresh flowers</h3>
+        <span> natural & beautiful flowers</span>
+        <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Beatae laborum ut minus corrupti dolorum dolore assumenda iste voluptate dolorem pariatur.</p>
+        <a href="#" class="btn">shop now</a>
+
+      </div>
+       </section>
+      <!--home section ends-->
+      <!--about section starts-->
+
+      <section class="about" id="about">
+        <h1 class="heading"><span> about </span> us </h1>
+
+        <div class="row">
+            <div class="video-container">
+                <video src="https://media.istockphoto.com/id/493319015/video/super-girl-running-in-the-meadow-at-sunset.mp4?s=mp4-640x640-is&k=20&c=QbFNb3xfmDLww3UYahFt2aNYPHsep8-iJY7K-sM3-jg=" loop autoplay muted></video>
+                <h3>best flower sellers</h3>
+
+            </div>
+            <div class="content">
+                <h3> why choose us?</h3>
+                <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Rem cumque sit nemo particular corporis perspiciatis aspernature a ullam repudiandae autem asperiores quibusdam omnis commodi alias repellat illum, unde optio temporibus.</p>
+                <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Accusantium ea est commodi incidunt magni quia molestias perspiciatis,unde repudiandae quidem.</p>
+                <a href="#" class="btn"> learn more</a>
+
+            </div>
+        </div>
+
+      </section>
+      <!--about section ends-->
+      <!--icons section starts-->
+      <section class="icons-container">
+        <div class="icons">
+            <img src="https://static.vecteezy.com/system/resources/thumbnails/016/314/788/small_2x/fast-delivery-free-png.png" alt="">
+            <div class="info">
+                <h3>free delivery</h3>
+                <span>on all orders</span>
+            </div>
+        </div>
+
+        <div class="icons">
+            <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRWzH-eN7OdcDKaNzutooFHZEtTYKRbJo-c-Q&s" alt="">
+            <div class="info">
+                <h3>offer & gifts</h3>
+                <span>on all orders</span>
+            </div>
+        </div>
+
+        <div class="icons">
+            <img src="data:image/png;base64,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" alt="">
+            <div class="info">
+                <h3>10 days return</h3>
+                <span>moneyback garantee</span>
+            </div>
+        </div>
+
+        <div class="icons">
+            <img src="data:image/png;base64,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" alt="">
+            <div class="info">
+                <h3>secure payment</h3>
+                <span>protected by paypal</span>
+            </div>
+        </div>
+
+      </section>
+      <!--icons section ends-->
+
+      <!--product section starts-->
+      <section class="products" id="products">
+        <h1 class="heading"> latest <span>products</span> </h1>
+        <div class="box-container">
+        <div class="box">
+            <span class="discount">-10%</span>
+            <div class="image">
+                <img src="https://media.gettyimages.com/id/155161126/photo/pink-hydrangea-in-yellow-pot-isolated-on-white.jpg?s=612x612&w=gi&k=20&c=swpx6nVNEsIUINJ7aAvIhjQEL3TRie0uNeT4V3tUw0A=" alt="">
+                <div class="icons">
+                    <a href="#" class="fas-fa-heart"></a>
+                    <a href="#" class="cart-btn">add to cart</a>
+                    <a href="#" class="fas fa-share"></a>
+                    
+                </div>
+            </div>
+            <div class="content">
+                <h3>flower pot</h3>
+                <div class="price">$12.99 <span>$15.99</span></div>
+            </div>
+        </div>
+        <div class="box">
+            <span class="discount">-15%</span>
+            <div class="image">
+                <img src="https://static.vecteezy.com/system/resources/thumbnails/029/893/517/small/of-gazania-flower-in-pot-isolated-on-white-background-generative-ai-photo.jpg" alt="">
+                <div class="icons">
+                    <a href="#" class="fas-fa-heart"></a>
+                    <a href="#" class="cart-btn">add to cart</a>
+                    <a href="#" class="fas fa-share"></a>
+                </div>
+            </div>
+            <div class="content">
+                <h3>flower pot</h3>
+                <div class="price">$12.99 <span>$15.99</span></div>
+            </div>
+        </div>
+        <div class="box">
+            <span class="discount">-17%</span>
+            <div class="image">
+                <img src="https://t4.ftcdn.net/jpg/06/22/57/93/360_F_622579323_5WSh4OJhpwhMNPfiKrX5EKuu1Ogs6IbN.jpg" alt="">
+                <div class="icons">
+                    <a href="#" class="fas-fa-heart"></a>
+                    <a href="#" class="cart-btn">add to cart</a>
+                    <a href="#" class="fas fa-share"></a>
+                </div>
+            </div>
+            <div class="content">
+                <h3>flower pot</h3>
+                <div class="price">$12.99 <span>$15.99</span></div>
+            </div>
+        </div>
+        <div class="box">
+            <span class="discount">-7%</span>
+            <div class="image">
+                <img src="https://media.istockphoto.com/id/183061168/photo/potted-yellow-chrysanthemum-mums.jpg?s=612x612&w=0&k=20&c=A0oa1Rsr3A7A1wz_vcIn8QW6bNuYNq1UTVg8Ahdarm0=" alt="">
+                <div class="icons">
+                    <a href="#" class="fas-fa-heart"></a>
+                    <a href="#" class="cart-btn">add to cart</a>
+                    <a href="#" class="fas fa-share"></a>
+                </div>
+            </div>
+            <div class="content">
+                <h3>flower pot</h3>
+                <div class="price">$12.99 <span>$15.99</span></div>
+            </div>
+        </div>
+        <div class="box">
+            <span class="discount">-5%</span>
+            <div class="image">
+                <img src="https://img.freepik.com/premium-photo/pot-with-flowers-white-background_988987-5751.jpg" alt="">
+                <div class="icons">
+                    <a href="#" class="fas-fa-heart"></a>
+                    <a href="#" class="cart-btn">add to cart</a>
+                    <a href="#" class="fas fa-share"></a>
+                </div>
+            </div>
+            <div class="content">
+                <h3>flower pot</h3>
+                <div class="price">$12.99 <span>$15.99</span></div>
+            </div>
+        </div>
+        <div class="box">
+            <span class="discount">-15%</span>
+            <div class="image">
+                <img src="https://nestasia.in/cdn/shop/products/M21nsa6352.jpg?v=1653909457&width=600" alt="">
+                <div class="icons">
+                    <a href="#" class="fas-fa-heart"></a>
+                    <a href="#" class="cart-btn">add to cart</a>
+                    <a href="#" class="fas fa-share"></a>
+                </div>
+            </div>
+            <div class="content">
+                <h3>flower pot</h3>
+                <div class="price">$12.99 <span>$15.99</span></div>
+            </div>
+        </div>
+        
+        </div>
+      </section>
+      <!--product section ends-->
+
+      <!--review section starts-->
+
+      <section class="review" id="review">
+        <h1 class="heading"> customer's <span>review</span></h1>
+        <div class="box-container">
+            <div class="box">
+                <div class="stars">
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                </div>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Repellat in saepe corporis rerum est asperiores nisi quisquam ad officia placeat, perspiciatis autem laudantium, porro quaerat nulla, eligendi voluptatem sapiente deserunt.</p>
+                <div class="user">
+                    <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSwRPWpO-12m19irKlg8znjldmcZs5PO97B6A&s" alt="">
+                    <div class="user-info">
+                      <h3>John deo</h3>
+                      <span>Happy Customer</span>
+                    </div>
+                </div>
+                <span class="fas fa-quote-right"></span>
+            </div>
+            <div class="box">
+                <div class="stars">
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                </div>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Repellat in saepe corporis rerum est asperiores nisi quisquam ad officia placeat, perspiciatis autem laudantium, porro quaerat nulla, eligendi voluptatem sapiente deserunt.</p>
+                <div class="user">
+                    <img src="https://cdn3.pixelcut.app/1/3/profile_picture_1728ecf2bd.jpg" alt="">
+                    <div class="user-info">
+                      <h3>John deo</h3>
+                      <span>Happy Customer</span>
+                    </div>
+                </div>
+                <span class="fas fa-quote-right"></span>
+            </div>
+            <div class="box">
+                <div class="stars">
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                </div>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Repellat in saepe corporis rerum est asperiores nisi quisquam ad officia placeat, perspiciatis autem laudantium, porro quaerat nulla, eligendi voluptatem sapiente deserunt.</p>
+                <div class="user">
+                    <img src="https://media.gettyimages.com/id/1317804578/photo/one-businesswoman-headshot-smiling-at-the-camera.jpg?s=612x612&w=gi&k=20&c=tFkDOWmEyqXQmUHNxkuR5TsmRVLi5VZXYm3mVsjee0E=" alt="">
+                    <div class="user-info">
+                      <h3>John deo</h3>
+                      <span>Happy Customer</span>
+                    </div>
+                </div>
+                <span class="fas fa-quote-right"></span>
+            </div>
+        </div>
+      </section>
+      <!--review section ends-->
+
+      <!--contact section starts-->
+
+      <section class="contact" id="contact">
+        <h1 class="heading"><span> contact </span> us </h1>
+        <div class="row">
+            <form action="">
+                <input type="text" placeholder="name" class="box">
+                <input type="email" placeholder="email" class="box">
+                <input type="number" placeholder="number" class="box">
+                <textarea name="" class="box" placeholder="message" id="" cols="30" rows="10"></textarea>
+                <input type="submit" value="send message" class="btn">
+            </form>
+
+            <div class="image">
+                 <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSQWwGFwUZDGp9VaeOl9D-B_e2NhIETPkVSFQ&s" alt="">
+            </div>
+        </div>
+      </section>
+      <!--contact section ends-->
+
+      <!--footer section starts-->
+
+      <section class="footer">
+        <div class="box-container">
+            <div class="box">
+                <h3>quick links</h3>
+                <a href="#">home</a>
+                <a href="#">about</a>
+                <a href="#">products</a>
+                <a href="#">review</a>
+                <a href="#">contact</a>
+                </div>
+                <div class="box">
+                    <h3>extra links</h3>
+                    <a href="#">my account</a>
+                    <a href="#">my order</a>
+                    <a href="#">my favorite</a>
+                    </div>
+                    <div class="box">
+                        <h3>locations</h3>
+                        <a href="#">india</a>
+                        <a href="#">USA</a>
+                        <a href="#">japan</a>
+                        <a href="#">france</a>
+                        </div>
+                        <div class="box">
+                            <h3>contact info</h3>
+                            <a href="#">+123-456-7890</a>
+                            <a href="#">example@gmail.com</a>
+                            <a href="#">mumbai, india - 400104</a>
+                            <img src="https://e7.pngegg.com/pngimages/848/507/png-clipart-logo-brand-payment-product-design-paypal-text-payment.png" alt="">
+                            </div>
+        </div>
+
+        <div class="credit"> created by<span> mr. web designer </span> |all rights reserved</div>
+      </section>
+      <!--footer section ends-->
+    
+</body>
+</html>
